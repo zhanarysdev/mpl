@@ -1,0 +1,21 @@
+<div class="container">
+  <div class="row">
+    <div class="col-sm-12">
+      <div class="panel">
+        <div class="panel-body">
+          <td>
+            <ul>
+              {{#each context}}
+                <li>{{title}}</li>
+                <li>{{description}}</li>
+                <a href="/coupons/{{_id}}" role="button" class="btn btn-default">View details</a>
+              {{/each}}
+            </ul>
+          </td>
+          
+        </div>
+      </div>
+    </div>
+    </div>
+  </div>
+</div>
